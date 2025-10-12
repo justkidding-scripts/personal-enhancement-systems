@@ -1,0 +1,46 @@
+#!/bin/bash
+# Personal Enhancement Systems Launcher
+# Auto-generated on 2025-10-12T18:19:12.636900
+
+SCRIPT_DIR="/home/nike"
+
+case "$1" in
+    "overview"|"status")
+        python3 "$SCRIPT_DIR/enhancement_manager.py" overview
+        ;;
+    "monitor")
+        echo "🔍 Starting Advanced Monitoring..."
+        python3 "$SCRIPT_DIR/advanced_enhancement_system.py" monitor
+        ;;
+    "analyze")
+        echo "📊 Analyzing Enhancement Opportunities..."
+        python3 "$SCRIPT_DIR/advanced_enhancement_system.py" analyze
+        ;;
+    "report")
+        echo "📄 Generating Enhancement Report..."
+        python3 "$SCRIPT_DIR/advanced_enhancement_system.py" report
+        ;;
+    "fix-ocr")
+        echo "🔧 Running OCR Integration Fix..."
+        python3 "$SCRIPT_DIR/integrate_ocr_timeout_fix.py"
+        ;;
+    "test-ocr")
+        echo "🧪 Testing OCR System..."
+        python3 "$SCRIPT_DIR/advanced_enhancement_system.py" test-ocr
+        ;;
+    *)
+        echo "🚀 Personal Enhancement Systems"
+        echo "Usage: enhance <command>"
+        echo ""
+        echo "Available commands:"
+        echo "  overview    - Show system overview"
+        echo "  monitor     - Start continuous monitoring"
+        echo "  analyze     - Analyze opportunities"
+        echo "  report      - Generate detailed report"
+        echo "  fix-ocr     - Fix OCR timeout issues"
+        echo "  test-ocr    - Test OCR capabilities"
+        echo ""
+        echo "For full management interface:"
+        echo "  python3 enhancement_manager.py --help"
+        ;;
+esac

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Enhancement Systems Launcher
+Comment=Personal Enhancement Systems - One-click installer and launcher
+Icon=applications-system
+Exec=python3 "/home/nike/Desktop/Enhancement_Systems_Launcher.py"
+Path=/home/nike/Desktop
+Terminal=false
+Categories=Development;System;Utility;
