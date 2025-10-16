@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=System Optimizer Pro Complete Edition
+Comment=Advanced system optimization and maintenance tool with file opening diagnostics
+Exec=python3 "/home/nike/Desktop/System Optimizer Pro Complete Edition/SystemOptimizerComplete.py"
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+Categories=System;Utility;
+Keywords=system;optimization;cleanup;maintenance;diagnostics;
